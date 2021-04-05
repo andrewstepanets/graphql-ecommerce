@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink, gql } from '@apollo/client';
-import { SchemaLink } from '@apollo/client/link/schema';
 
 import { store, persistor } from './redux/store';
 

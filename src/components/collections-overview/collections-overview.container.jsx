@@ -23,9 +23,9 @@ const GET_COLLECTIONS = gql`
 
     const { loading, error, data } = useQuery(GET_COLLECTIONS);
 
-            console.log(loading);
-            console.log(error);
-            console.log(data);
+            // console.log(loading);
+            // console.log(error);
+            // console.log(data);
 
     if(loading) return <Spinner />
 
